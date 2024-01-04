@@ -1,3 +1,3 @@
 function AnswerCheck(form){
-  $("#play-error").get(0).play();
+  $("#play-correct").get(0).play();
 }
