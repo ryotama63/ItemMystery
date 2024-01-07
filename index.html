@@ -9,14 +9,14 @@
 </head>
 <body>
   <audio src="./Sounds/correct.mp3" id="play-correct"></audio>
-  <audio src="./Sounds/gameclear.mp3" id="play-gameclear.mp3"></audio>
+  <audio src="./Sounds/error.mp3" id="play-error"></audio>
     <div class="nazoform">
     <form name="Correct" onsubmit="AnswerCheck(this);return false;">
         <button type="submit">正解音</button>
     </form>
     </br>
     <form name="Clear" onsubmit="GameClear(this);return false;">
-        <button type="submit">ゲームクリア</button>
+        <button type="submit">不正解音</button>
     </form>
     </div>
     <div id="result"></div>
